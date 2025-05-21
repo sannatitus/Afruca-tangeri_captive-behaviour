@@ -20,7 +20,7 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 - **Requirements:**  
   - Package and version requirements for reproducing the Python pipeline are provided.
 - **R script** for:
-  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis)
+  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis); see `/Analysis/statistics_permanova-dirilecht-RDA.R`
 - **Requirements:**  
   - Package and version requirements for reproducing the R pipeline are provided.
 
