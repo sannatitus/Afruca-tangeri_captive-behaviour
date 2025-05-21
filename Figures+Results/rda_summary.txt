@@ -1,0 +1,29 @@
+
+Call:
+rda(formula = Y_cat ~ `day type` + `human visible` + photoperiod +      `tide type` + present.population + calculated.sex.ratio +      hour.of.day + sex, data = rda_predictors) 
+
+Partitioning of variance:
+              Inertia Proportion
+Total         0.34789    1.00000
+Constrained   0.02944    0.08462
+Unconstrained 0.31845    0.91538
+
+Eigenvalues, and their contribution to the variance 
+
+Importance of components:
+                         RDA1     RDA2     RDA3      RDA4      RDA5      RDA6
+Eigenvalue            0.02202 0.004602 0.001792 0.0005957 0.0004173 1.208e-05
+Proportion Explained  0.06329 0.013228 0.005150 0.0017124 0.0011995 3.472e-05
+Cumulative Proportion 0.06329 0.076520 0.081671 0.0833831 0.0845826 8.462e-02
+                         PC1     PC2     PC3     PC4     PC5      PC6
+Eigenvalue            0.1403 0.09222 0.03944 0.03088 0.01462 0.001011
+Proportion Explained  0.4033 0.26507 0.11337 0.08876 0.04202 0.002905
+Cumulative Proportion 0.4879 0.75294 0.86631 0.95507 0.99709 1.000000
+
+Accumulated constrained eigenvalues
+Importance of components:
+                         RDA1     RDA2     RDA3      RDA4      RDA5      RDA6
+Eigenvalue            0.02202 0.004602 0.001792 0.0005957 0.0004173 1.208e-05
+Proportion Explained  0.74798 0.156326 0.060868 0.0202374 0.0141757 4.104e-04
+Cumulative Proportion 0.74798 0.904309 0.965176 0.9854139 0.9995896 1.000e+00
+
