@@ -7,7 +7,7 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ## Folder Structure
 
 ### `/Data`
-- Contains the raw instantaneous behaviour data acquisition csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.).
+- Contains the raw instantaneous behaviour data acquisition csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and concatenated 'non visibility' entries. 
 
 ### `/Analysis`
 - **Python scripts** for:
