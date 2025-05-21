@@ -11,6 +11,7 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 
 ### `/Analysis`
 - **Python scripts** for:
+  - Data acquisition selection of dates & observation windows 
   - Data cleaning
   - Data validation
   - Calculation of non-visibility backtracking
