@@ -14,13 +14,13 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
   - Data validation; see `validation.ipynb`
 
 ### `/Analysis`
-- **Python scripts** for:
-  - Calculation of non-visibility backtracking; see `figures.ipynb`
-  - Descriptive statistics; see `figures.ipynb`
-  - Chi-square statistics on the probability of visibility; see `figures.ipynb`
-  - Figure generation; see `figures.ipynb`
-- **R script** for:
-  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis); see `statistics_permanova-dirilecht-RDA.R`
+- **Python script** `figures.ipynb` for:
+  - Calculation of non-visibility backtracking
+  - Descriptive statistics
+  - Chi-square statistics on the probability of visibility
+  - Figure generation
+- **R script** `statistics_permanova-dirilecht-RDA.R` for:
+  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis)
 
 ### `/Figures+Results`
 - All main and supplementary figures available in the article.
