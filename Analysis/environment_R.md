@@ -1,4 +1,4 @@
-## Requirements for Running the R Script
+## Requirements the R Script environment
 
 To run this R script successfully, **R version 4.0.0 or higher** is recommended.
 
