@@ -9,7 +9,7 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ### `/Data`
 - Contains the raw instantaneous behaviour data acquisition xlsx and backup csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries from `validation.py`. For the entire concatenated 'NV' dataframe, please see df_total within `/Analysis/figures.py`
 - **Python scripts** for:
-  - Data acquisition selection of dates & observation windows `data-selection.py`
+  - Data acquisition selection of dates & observation windows; see `data-selection.py`
   - Data cleaning and duplicates check; see `validation.py`
   - Data validation; see `validation.py`
 
