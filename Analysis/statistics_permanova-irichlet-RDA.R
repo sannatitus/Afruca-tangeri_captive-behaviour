@@ -1,4 +1,4 @@
-# R script to run univariate and multivariate PERMANOVAs, Dirilecht regression, and RDA. 
+# R script to run univariate and multivariate PERMANOVAs, Dirichlet regression, and RDA. 
 # install.packages("readxl")
 # install.packages("dplyr")
 # install.packages("vegan")
