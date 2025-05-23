@@ -7,17 +7,17 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ## Folder Structure
 
 ### `/Data`
-- Contains the raw instantaneous behaviour data acquisition csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and concatenated 'non visibility' entries. 
+- Contains the raw instantaneous behaviour data acquisition csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries. For the entire concatenated 'NV' dataframe, please see df_total within `figures.ipynb`
 
 ### `/Analysis`
 - **Python scripts** for:
   - Data acquisition selection of dates & observation windows 
   - Data cleaning
   - Data validation
-  - Calculation of non-visibility backtracking
-  - Descriptive statistics
-  - Chi-square statistics on the probability of visibility
-  - Figure generation
+  - Calculation of non-visibility backtracking; see `figures.ipynb`
+  - Descriptive statistics; see `figures.ipynb`
+  - Chi-square statistics on the probability of visibility; see `figures.ipynb`
+  - Figure generation; see `figures.ipynb`
 - **Requirements:**  
   - Package and version requirements for reproducing the Python pipeline are provided.
 - **R script** for:
