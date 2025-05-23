@@ -1,0 +1,19 @@
+name: Afruca-tangeri_captive-behaviour
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - networkx
+  - scipy
+  - scikit-learn
+  - openpyxl
+  - xlrd
+  - jupyterlab
+  - pip
+  - pip:
+      - matplotlib-venn
