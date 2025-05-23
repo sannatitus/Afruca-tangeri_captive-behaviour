@@ -7,17 +7,17 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ## Folder Structure
 
 ### `/Data`
-- Contains the raw instantaneous behaviour data acquisition csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries. For the entire concatenated 'NV' dataframe, please see df_total within `figures.ipynb`
+- Contains the raw instantaneous behaviour data acquisition xlsx and backup csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries from `validation.py`. For the entire concatenated 'NV' dataframe, please see df_total within `figures.py`
 
 ### `/Analysis`
 - **Python scripts** for:
-  - Data acquisition selection of dates & observation windows `data-selection.ipynb`
-  - Data cleaning and duplicates check; see `validation.ipynb`
-  - Data validation; see `validation.ipynb`
-  - Calculation of non-visibility backtracking; see `figures.ipynb`
-  - Descriptive statistics; see `figures.ipynb`
-  - Chi-square statistics on the probability of visibility; see `figures.ipynb`
-  - Figure generation; see `figures.ipynb`
+  - Data acquisition selection of dates & observation windows `data-selection.py`
+  - Data cleaning and duplicates check; see `validation.py`
+  - Data validation; see `validation.py`
+  - Calculation of non-visibility backtracking; see `figures.py`
+  - Descriptive statistics; see `figures.py`
+  - Chi-square statistics on the probability of visibility; see `figures.py`
+  - Figure generation; see `figures.py`
 - **Requirements:**  
   - Package and version requirements for reproducing the Python pipeline are provided as `environment_Python.yaml`
 - **R script** for:
