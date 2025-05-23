@@ -12,8 +12,8 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ### `/Analysis`
 - **Python scripts** for:
   - Data acquisition selection of dates & observation windows 
-  - Data cleaning
-  - Data validation
+  - Data cleaning and duplicates check; see `validation.ipynb`
+  - Data validation; see `validation.ipynb`
   - Calculation of non-visibility backtracking; see `figures.ipynb`
   - Descriptive statistics; see `figures.ipynb`
   - Chi-square statistics on the probability of visibility; see `figures.ipynb`
