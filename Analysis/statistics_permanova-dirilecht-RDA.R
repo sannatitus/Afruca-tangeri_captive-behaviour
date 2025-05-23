@@ -117,6 +117,29 @@ cat_wide <- agg_cat %>%
 cat_data <- cat_wide %>%
   left_join(predictors, by = c("video file", "selected observation period start", "crab ID"))
 
+if (!"hour.of.day" %in% colnames(df_active)) {
+  df_active$hour.of.day <- lubridate::hour(df_active$`real time`)
+}
+
+# Explore most common instantaneous behaviour by hour of day. Looks like it's dominated by 'submerged', so we will explore all predictors on the influences of activity budgets. 
+behaviour_by_hour <- df_active %>%
+  group_by(hour.of.day, `instantaneous behaviour`) %>%
+  summarise(count = n(), .groups = "drop") %>%
+  arrange(hour.of.day, desc(count))
+
+most_common_behaviour <- behaviour_by_hour %>%
+  group_by(hour.of.day) %>%
+  slice_max(order_by = count, n = 1) %>%
+  ungroup()
+
+print(most_common_behaviour)
+
+library(ggplot2)
+ggplot(behaviour_by_hour, aes(x = hour.of.day, y = count, fill = `instantaneous behaviour`)) +
+  geom_col(position = "dodge") +
+  labs(title = "Behaviour frequency by hour of day", x = "Hour of day", y = "Count") +
+  theme_minimal()
+
 ###################################################
 # DATA FIT TEST (for PERMANOVA) 
 ###################################################
@@ -358,13 +381,18 @@ summary(dirichlet_model_cat)
 
 ## Boxplot 
 
+png("dirichlet_model_cat_residuals_boxplot.png", width = 1200, height = 900, res = 150)
 resids <- residuals(dirichlet_model_cat)
 boxplot(resids, main = "Dirichlet Regression Residuals")
+dev.off()
+
+## Histogram 
+
 png("dirichlet_model_cat_residuals_hist.png", width = 1200, height = 900, res = 150)
 hist(resids, breaks = 50, main = "Histogram of Dirichlet Regression Residuals")
 dev.off()
 
-## Histogram 
+## Residuals vs Fitted 
 
 fitted_vals <- fitted(dirichlet_model_cat)
 png("dirichlet_model_cat_residuals_vs_fitted.png", width = 1200, height = 900, res = 150)
@@ -460,4 +488,7 @@ anova(cca_cat, by = "term", permutations = 999)
 #sink("cca_behaviour_categories_summary.txt")
 #summary(cca_cat)
 #sink()
+
+
+
 
