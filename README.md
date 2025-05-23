@@ -19,11 +19,11 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
   - Chi-square statistics on the probability of visibility; see `figures.ipynb`
   - Figure generation; see `figures.ipynb`
 - **Requirements:**  
-  - Package and version requirements for reproducing the Python pipeline are provided.
+  - Package and version requirements for reproducing the Python pipeline are provided as `environment_Python.yaml`
 - **R script** for:
   - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis); see `/Analysis/statistics_permanova-dirilecht-RDA.R`
 - **Requirements:**  
-  - Package and version requirements for reproducing the R pipeline are provided.
+  - Package and version requirements for reproducing the R pipeline are provided as `environment_R.md`
 
 ### `/Figures+Results`
 - All main and supplementary figures available in the article.
@@ -33,7 +33,7 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 
 ## Reproducibility
 
-- See `/Analysis/requirements_Python.txt` and `/Analysis/requirements_R.txt` for package and version details.
+- See `/Analysis/environment_Python.yaml` and `/Analysis/environment_R.md` for package and version details.
 
 ---
 
