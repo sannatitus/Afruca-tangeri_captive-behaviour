@@ -7,33 +7,28 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ## Folder Structure
 
 ### `/Data`
-- Contains the raw instantaneous behaviour data acquisition xlsx and backup csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries from `validation.py`. For the entire concatenated 'NV' dataframe, please see df_total within `figures.py`
-
-### `/Analysis`
+- Contains the raw instantaneous behaviour data acquisition xlsx and backup csv, which includes all variables statistically analysed (e.g., `video file`, `crab ID`, `day type`, `minimum lifespan`, etc.) and the first iteration of concatenated 'non visibility' entries from `validation.py`. For the entire concatenated 'NV' dataframe, please see df_total within `/Analysis/figures.py`
 - **Python scripts** for:
   - Data acquisition selection of dates & observation windows `data-selection.py`
   - Data cleaning and duplicates check; see `validation.py`
   - Data validation; see `validation.py`
+
+### `/Analysis`
+- **Python scripts** for:
   - Calculation of non-visibility backtracking; see `figures.py`
   - Descriptive statistics; see `figures.py`
   - Chi-square statistics on the probability of visibility; see `figures.py`
   - Figure generation; see `figures.py`
-- **Requirements:**  
-  - Package and version requirements for reproducing the Python pipeline are provided as `environment_Python.yaml`
 - **R script** for:
-  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis); see `/Analysis/statistics_permanova-dirilecht-RDA.R`
-- **Requirements:**  
-  - Package and version requirements for reproducing the R pipeline are provided as `environment_R.md`
+  - Formal statistical analysis (univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis); see `statistics_permanova-dirilecht-RDA.R`
 
 ### `/Figures+Results`
 - All main and supplementary figures available in the article.
 - Text files for specific statistical analysis outputs from R (e.g., univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis).
 
----
-
-## Reproducibility
-
-- See `/Analysis/environment_Python.yaml` and `/Analysis/environment_R.md` for package and version details.
+### `/Environments`
+- Package and version requirements for reproducing the Python pipeline are provided as `environment_Python.yaml`
+- Package and version requirements for reproducing the R pipeline are provided as `environment_R.md`
 
 ---
 
