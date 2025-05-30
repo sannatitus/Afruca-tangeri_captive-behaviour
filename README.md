@@ -1,14 +1,12 @@
 # Afruca-tangeri_captive-behaviour
 
-Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) behaviour in captive enviroment. 
+Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) behaviour in captive enviroment. |  Last updated by Sanna Titus, sannatitus@yahoo.com, May 2025 
 
 Please reference this [Google Drive folder](https://drive.google.com/drive/folders/1SCNlxQzYSR1nCWRKp0wAlE-cBqnHm2TR?usp=sharing) to access the following facet videos: 
   - `facet_instantaneous-behaviours.mp4` depicts all behaviours recorded in the selected observation windows
   - `facet_instantaneous-behaviours+new.mp4` depicts all behaviours recorded in the selected observation windows, plus novel behaviours observed during scan-sampling
   - `facet_behaviour-category-labels.mp4` depicts all behaviours recorded in the selected observation windows, with coloured text boxes representing the assigned behaviour category 
   - `facet_behaviour-category-labels+new.mp4` depicts all behaviours recorded in the selected observation windows, with coloured text boxes representing the assigned behaviour category (white being novel behaviours) 
-
-Last updated by Sanna Titus, sannatitus@yahoo.com, May 2025 
 
 ---
 
