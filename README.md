@@ -1,5 +1,4 @@
 # Afruca-tangeri_captive-behaviour
-| Last updated by Sanna Titus, sannatitus@yahoo.com, May 2025 
 
 Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) behaviour in captive enviroment.
 
@@ -41,4 +40,5 @@ Please reference this [Google Drive folder](https://drive.google.com/drive/folde
 
 ## Contact
 
-For questions or collaboration, please contact Sanna at sannatitus@yahoo.com. 
+For questions or collaboration, you're welcome to contact sannatitus@yahoo.com
+| Last updated by Sanna Titus, sannatitus@yahoo.com, May 2025 
