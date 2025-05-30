@@ -40,5 +40,6 @@ Please reference this [Google Drive folder](https://drive.google.com/drive/folde
 
 ## Contact
 
-For questions or collaboration, you're welcome to contact sannatitus@yahoo.com
+For questions or collaboration, please contact sannatitus@yahoo.com
+
 | Last updated by Sanna Titus, sannatitus@yahoo.com, May 2025 
