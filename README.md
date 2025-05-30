@@ -25,6 +25,11 @@ Raw data and analysis pipeline for West African fiddler crab (*Afruca tangeri*) 
 ### `/Figures+Results`
 - All main and supplementary figures available in the article.
 - Text files for specific statistical analysis outputs from R (e.g., univariate and multivariate PERMANOVAs, Dirilecht regression, Redundancy Analysis).
+- Facet videos depicting instantaneous behaviours:
+  - `facet_instantaneous-behaviours.mp4` depicts all behaviours recorded in the selected observation windows
+  - `facet_instantaneous-behaviours+new.mp4` depicts all behaviours recorded in the selected observation windows, plus novel behaviours observed during scan-sampling
+  - `facet_behaviour-category-labels.mp4` depicts all behaviours recorded in the selected observation windows, with coloured text boxes representing the assigned behaviour category 
+  - `facet_behaviour-category-labels+new.mp4` depicts all behaviours recorded in the selected observation windows, with coloured text boxes representing the assigned behaviour category (white being novel behaviours) 
 
 ### `/Environments`
 - Package and version requirements for reproducing the Python pipeline are provided as `environment_Python.yaml`
