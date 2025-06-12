@@ -1,5 +1,5 @@
 # Ethogram of instantaneous behaviours and their associated beahvioural categories. 
-## Please note those with a '-' in the first column were not assigned a behavioural category due to their limited observational frequency. The quantity of observations is available in parentheses. When husbandry records confirmed an individual's presence but it was not visible at any point during the selected observation window, its behaviour was categorized as 'NV' (not visible). An NV designation indicates the crab was either likely burrowing or submerged for an extended period (i.e., longer than the 30-minute observation period), or had died within the last 24 hours.
+Please note those with a '-' in the first column were not assigned a behavioural category due to their limited observational frequency. The quantity of observations is available in parentheses. When husbandry records confirmed an individual's presence but it was not visible at any point during the selected observation window, its behaviour was categorized as 'NV' (not visible). An NV designation indicates the crab was either likely burrowing or submerged for an extended period (i.e., longer than the 30-minute observation period), or had died within the last 24 hours.
 
 | Behavioural Category   | Instantaneous Behaviour | Definition |
 |------------------------|-------------------------|------------|
