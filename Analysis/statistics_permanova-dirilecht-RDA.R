@@ -342,7 +342,7 @@ print(permanova_margin_cat)
 
 ## Save for beahvioural categories 
 sink("permanova-multivariate-summary.txt"); summary(permanova_result_cat); sink()
-sink("STab3_permanova-marginal-summary.txt")
+sink("STable3_permanova-marginal-summary.txt")
 print(permanova_margin_cat, digits = 5) 
 sink()
 
