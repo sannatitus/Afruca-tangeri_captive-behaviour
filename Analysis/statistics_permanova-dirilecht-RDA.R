@@ -311,7 +311,7 @@ print(permanova_margin)
 predictors <- c("day type", "human visible", "photoperiod", "tide type", 
                 "present.population", "calculated.sex.ratio", "hour.of.day", "sex")
 
-sink("permanova_univariate_summary.txt")
+sink("permanova-univariate-summary.txt")
 cat("Univariate PERMANOVA results (behavioural categories):\n\n")
 
 for (pred in predictors) {
@@ -341,8 +341,10 @@ permanova_margin_cat <- adonis2(
 print(permanova_margin_cat)
 
 ## Save for beahvioural categories 
-sink("permanova_multivariate_summary.txt"); summary(permanova_result_cat); sink()
-sink("permanova_marginal_summary.txt"); summary(permanova_margin_cat); sink()
+sink("permanova-multivariate-summary.txt"); summary(permanova_result_cat); sink()
+sink("STab3_permanova-marginal-summary.txt")
+print(permanova_margin_cat, digits = 5) 
+sink()
 
 ############################################
 # Dirichlet Regresssion (*behavioural categories included in article*)
@@ -422,7 +424,7 @@ par(mfrow = c(1, 1)) # reset layout
 dev.off()
 
 ### Save for behavioural categories 
-sink("dirichlet_model_summary.txt"); summary(dirichlet_model_cat); sink()
+sink("dirichlet-model-summary.txt"); summary(dirichlet_model_cat); sink()
 
 ############################################
 # RDA (behavioural categories only) *included in article*
@@ -454,7 +456,7 @@ anova(rda_cat, by = "axis", permutations = 999)
 anova(rda_cat, by = "term", permutations = 999)
 
 ### Save 
-sink("rda_summary.txt")
+sink("rda-summary.txt")
 summary(rda_cat)
 sink()
 
@@ -485,7 +487,7 @@ anova(cca_cat, permutations = 999)
 anova(cca_cat, by = "axis", permutations = 999)
 anova(cca_cat, by = "term", permutations = 999)
 
-#sink("cca_behaviour_categories_summary.txt")
+#sink("cca-behaviour-categories-summary.txt")
 #summary(cca_cat)
 #sink()
 
