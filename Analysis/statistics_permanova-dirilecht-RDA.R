@@ -1,4 +1,4 @@
-# R script to run univariate and multivariate PERMANOVAs, Dirichlet regression, and RDA. 
+# R script to run univariate and multivariate PERMANOVAs, Dirichlet regression, and RDA. Composed by Sanna Titus, May 2025. 
 # install.packages("readxl")
 # install.packages("dplyr")
 # install.packages("vegan")
@@ -16,7 +16,7 @@ library(lubridate)
 #url <- "https://raw.githubusercontent.com/sannatitus/Afruca-tangeri_captive-behaviour/main/Data/instantaneous-behaviour-raw-data.csv"
 #df <- read_csv(url)
 url <- "https://raw.githubusercontent.com/sannatitus/Afruca-tangeri_captive-behaviour/main/Data/instantaneous-behaviour-raw-data.xlsx"
-df <- read_excel("C:/Users/Sanna/Desktop/husbandry-article_selected-data_Feb-2025-latest7.xlsx", sheet = "Sheet1")
+df <- read_excel("C:/Users/Sanna/Desktop/instantaneous-behaviour-raw-data.xlsx", sheet = "Sheet1")
 sessionInfo()
 warnings()
 
