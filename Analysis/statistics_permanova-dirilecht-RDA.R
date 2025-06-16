@@ -1,4 +1,5 @@
-# R script to run univariate and multivariate PERMANOVAs, Dirichlet regression, and RDA. Composed by Sanna Titus, May 2025. 
+# R script to run univariate and multivariate PERMANOVAs, Dirichlet regression, and RDA for instantaneous observations of Afruca tangeri in two crabitats (110 tank & tub) at the Sainsbury Wellcome Centre for Neural Circuits and Animal Behaviour throughout 2022-2023. 
+## Composed by Sanna Titus | sannatitus@gmail.com | 16 June 2025
 # install.packages("readxl")
 # install.packages("dplyr")
 # install.packages("vegan")
