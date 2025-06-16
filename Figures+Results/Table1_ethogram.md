@@ -1,5 +1,4 @@
-# Table 1. Ethogram of observed behaviour categories exhibited by A. tangeri in captivity.
-## Please see the second table below for instantaneous behaviour definitions (which is identical to the 'ethogram.md' file available within subfolder '/Data.' The following instantaneous behaviours were observed infrequently and thus omitted from behavioural categorisations: bubbling (33 observations), putative sleep (30 observations), tapping (27 observations), moulting (16 observations), mating (9 observations), and waving (which was observed, but just not at the minute-specific observation intervals). 
+# Table 1. Ethogram of observed behaviour categories exhibited by *A. tangeri* in captivity.
 
 | **Behaviour category**         | **Definition** |
 |--------------------------------|-----------------|
