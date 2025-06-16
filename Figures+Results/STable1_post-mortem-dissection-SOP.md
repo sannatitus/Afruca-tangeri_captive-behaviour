@@ -28,12 +28,10 @@ Dissection findings are recorded on a separate sheet within the husbandry databa
 
 \*Sanna is slightly unorthodox and prefers to go from the dorsal carapace when examining internal organs, under the assumption the crab is dead. Some sources go in from the abdomen; typically, this is in an effort to ensure ethical crab death by piercing the ventral nerve centre before entering the subcarapacial chamber, but it can be challenging to leave internal organs intact for examination if removing ventral appendages this way. Both procedures are valid if the crab is confirmed dead, as it is a matter of preference. These instructions shall enter the subcarapacial chamber from the dorsal side for the sake of repetition.
 
----
 
 ### 1. Put on PPE
 Gloves, lab coat, and either a mask or work in a well ventilated area / fume hood.
 
----
 
 ### 2. External Examination
 Assess its overall condition.  
@@ -45,13 +43,11 @@ While limb loss is not fatal, catastrophic loss or limb loss in combination with
 Look for holes in the carapace.  
 Record any significant findings following standard crab anatomy guidelines (i.e., start pereopod counting at chelae, such as dominant L1) and take photos of significant findings.
 
----
 
 ### 3. Shell Disease Check
 Look for any abnormalities on the carapace.  
 If necessary, reference import photographs for this individual.
 
----
 
 ### 4. Microbial Sample Collection
 If any unknown foreign organisms are present (e.g., bacterial & fungal) throughout the post-mortem dissection, collect a sample on a swab and attempt culture for subsequent speciation.  
@@ -59,14 +55,12 @@ Culture petri dishes with agar, antibacterial agar, and antifungal agar, as well
 If possible, swab the sample on prepared 3× agar plates (antifungal Amphotericin B, antibacterial PenStrep, and control) and suspend in marine broth (2216).  
 Organisms may grow differently on agar versus in suspension; hence, any suspicious findings should be inoculated on both media.
 
----
 
 ### 5. Abdominal Flap Examination
 Flip the crab upside down so that it’s on its carapace.  
 Peel back the abdominal flap and examine the anus, the paired penises or space between the abdominal flap and thoracic sternum.  
 Using forceps, put pressure on the anus to record the quantity and coloration of excreta. This suggests whether the crab foraged recently.
 
----
 
 ### 6. Gnathopod Examination
 From external to internal, dissect all mouthparts to evaluate structural integrity:  
@@ -75,7 +69,6 @@ From external to internal, dissect all mouthparts to evaluate structural integri
 - 3× paired maxillipeds  
 (12 appendages total)
 
----
 
 ### 7. Carapace Removal
 Flip the crab right side up.  
@@ -85,13 +78,11 @@ Use a scalpel or scissors to peel off the cervical membrane (the flexible, membr
 
 \***Do NOT do this unless you are confident the crab is dead.**
 
----
 
 ### 8. Internal Organ Examination
 Examine the heart, hepatopancreas, upper branchiae and nerve cord.  
 Then carefully remove each organ one by one, making an incision to evaluate the health of each organ.
 
----
 
 ### 9. Gills & Digestive Tract
 With the carapace and major internal organs removed, you should now be able to see the crab's branchiae.  
@@ -100,7 +91,6 @@ Make a note of gill coloration; often dissections occurring within 12 hrs of dea
 Then, remove the digestive tract, which runs along the centre of the crab's body from the mouth to the anus.  
 Evaluate the health of the lamellae, digestive tract contents, and hepatopancreas consistency and colour.
 
----
 
 ### 10. Pathogen & Infection Checks
 
@@ -110,7 +100,6 @@ Evaluate the health of the lamellae, digestive tract contents, and hepatopancrea
 
 _‘Collection techniques for the analyses of pathogens in crustaceans’ is described in Shields (2017)._
 
----
 
 ### 11. Parasite Check
 
@@ -122,7 +111,6 @@ Some parasites can also infect humans, again illuminating the importance of PPE.
 - **Nematodes**: a type of roundworm that can infect the intestines, liver, or other organs. Nematode infections may cause symptoms such as abdominal pain, diarrhoea, and weight loss.  
 - **Protozoa**: various species, including *Giardia* and *Cryptosporidium*, which can cause gastrointestinal symptoms such as diarrhoea and abdominal cramps in humans.
 
----
 
 ### 12. Reproductive Organs
 With the gills and digestive tract removed, you should now be able to see the reproductive organs of the crab.  
@@ -130,7 +118,6 @@ With the gills and digestive tract removed, you should now be able to see the re
 - **Males**: reproductive organs are located in the abdomen, and consist of two testes and a pair of vasa deferentia that lead to the gonopores located on the base of the fifth pair of legs.  
 - **Females**: the ovaries are located in the abdomen and are connected to the gonopores by a pair of oviducts. Examine the paired ovaries, oviducts, and genital pores.
 
----
 
 ### 13. Final Examination
 Once all of the internal organs have been examined, take a final look at the external and internal structures of the crab to ensure that nothing has been missed.  
