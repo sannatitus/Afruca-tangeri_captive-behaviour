@@ -1,4 +1,4 @@
-# S1 Table. Post-mortem Dissection Standard Operating Procedure
+# S1 Table. Post-mortem dissection standard operating procedure for *Afruca tangeri*. 
 
 ## Purpose
 The purpose of tracking deaths and performing post-mortems is to  
@@ -14,7 +14,7 @@ Environmental toxins include heavy metals, pesticides, petroleum products, etc.,
 ---
 
 ## Procedure Background
-Post mortem necropsies are conducted in a systematic manner:  
+Post-mortem necropsies are conducted in a systematic manner:  
 1) external examination  
 2) abdominal flap examination  
 3) carapace removal  
@@ -26,7 +26,7 @@ Dissection findings are recorded on a separate sheet within the husbandry databa
 
 ## Procedure (Step-by-Step Dissections\*)
 
-\*Sanna is slightly unorthodox and prefers to go from the dorsal carapace when examining internal organs, under the assumption the crab is dead. Some sources go in from the abdomen; typically, this is in an effort to ensure ethical crab death by piercing the ventral nerve centre before entering the subcarapacial chamber, but it can be challenging to leave internal organs intact for examination if removing ventral appendages this way. Both procedures are valid if the crab is confirmed dead, as it is a matter of preference. These instructions shall enter the subcarapacial chamber from the dorsal side for the sake of repetition.
+\*This approach is slightly unorthodox and seeks to examine internal organs by approaching from the dorsal carapace. Some sources go in from the abdomen; typically, this is to ensure ethical crab death by piercing the ventral nerve centre before entering the subcarapacial chamber, but it can be challenging to leave internal organs intact for examination if removing ventral appendages this way. These instructions shall enter the subcarapacial chamber from the dorsal side and therefore please only employ this surgical approach if the dissector is confident the specimen is dead. 
 
 
 ### 1. Put on PPE
