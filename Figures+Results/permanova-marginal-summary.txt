@@ -1,4 +1,26 @@
-       Df             SumOfSqs              R2                  F         
+Permutation test for adonis under reduced model
+Marginal effects of terms
+Permutation: free
+Number of permutations: 999
+
+adonis2(formula = Y_cat ~ `day type` + `human visible` + photoperiod + `tide type` + present.population + calculated.sex.ratio + hour.of.day + sex, data = X_cat, permutations = 999, by = "margin")
+                       Df SumOfSqs      R2       F Pr(>F)    
+`day type`              2     5.20 0.01361 11.6958  0.001 ***
+`human visible`         1     1.05 0.00274  4.7159  0.005 ** 
+photoperiod             3     6.55 0.01713  9.8100  0.001 ***
+`tide type`             1     1.12 0.00293  5.0307  0.001 ***
+present.population      1     4.89 0.01280 22.0016  0.001 ***
+calculated.sex.ratio    1     0.23 0.00061  1.0480  0.356    
+hour.of.day             1     1.58 0.00414  7.1156  0.001 ***
+sex                     1     1.09 0.00285  4.8934  0.002 ** 
+Residual             1561   347.26 0.90848                   
+Total                1572   382.24 1.00000                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+---
+
+Df             SumOfSqs              R2                  F         
  Min.   :   1.00   Min.   :  0.2331   Min.   :0.0006099   Min.   : 1.048  
  1st Qu.:   1.00   1st Qu.:  1.0962   1st Qu.:0.0028679   1st Qu.: 4.849  
  Median :   1.00   Median :  3.2387   Median :0.0084729   Median : 6.073  
@@ -14,3 +36,4 @@
  3rd Qu.:0.00350  
  Max.   :0.35100  
  NA's   :2        
+
